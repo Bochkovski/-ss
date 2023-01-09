@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+body{background-color: rgb(47, 136, 187);
+font-size: 20px;
+ font-family: 'Permanent Marker', cursive;}
+
+ a {
+    text-decoration: none;
+ }
+
+ a:hover {
+    text-decoration: line-through;
+ }
+
+.avatar {
+    width: 300px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px rgba(0 ,0 , 0,5)
+}
+
+a:active {
+    color: brown;
+}
+
+.info p {
+    color: rgb(0, 0, 0);
+    font-style: italic;
+    
+}
+.container {
+    max-width: 750px;
+    margin: auto;
+}
+.social {
+    background-color: rgb(1, 196, 255);
+    padding: 15px;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 20px; 
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.card {
+    padding: 15px 20px;
+    background: rgb(1, 196, 255);
+    margin-bottom: 20px;
+    border-radius: 20px; 
+    border: 5px solid rgb(0, 0, 0);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.card h2 {
+    margin-bottom: 20px;
+}
+
+.list {
+    margin-bottom: 20px;
+}
+
+.list li{
+    margin-bottom: 20px;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    padding-bottom: 10px;
+}
+
+.face {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.contact h2 {
+text-align: center;
+}
+
+.form-group label {
+    display: block;
+}
+
+.form-group input {
+    width: 100%;
+}
+
+.form-group textarea {
+    width: 100%;
+}
+
+.btn {
+    color: rgb(255, 255, 255);
+    padding: 15px 20px;
+    background: black;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.7;
+}
+
+.position {
+position: relative;
+border: 4px solid black;
+margin-top: 5%;
+padding: 20px;
+height: 300px;
+}
+
+.box {
+    position: fixed;
+    top: 100px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background: black;
+}
+
+.face {
+    background: rgb(15, 233, 233);
+    text-align: center;
+    text-decoration: dashed;
+    font-size: 500%;
+}
